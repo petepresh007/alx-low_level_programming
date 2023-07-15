@@ -5,11 +5,13 @@
  */
 int main(void)
 {
-	char lo_up[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char ab[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i <= 52; i++)
-		putchar(lo_up[i]);
+	for (i = 0; i < 52; i++)
+	{
+		putchar(ab[i]);
+	}
 	putchar('\n');
 	return (0);
 }
