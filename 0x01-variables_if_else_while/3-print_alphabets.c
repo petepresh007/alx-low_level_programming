@@ -11,4 +11,5 @@ int main(void)
 	for (i = 0; i <= 52; i++)
 		putchar(lo_up[i]);
 	putchar('\n');
+	return (0);
 }
